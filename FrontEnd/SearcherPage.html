@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searcher Page</title>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+            <img src="Logo.png" class="logo-image">
+            
+            <a href="SearcherPage.html">Home</a>
+            <a href="Notifications.html">Notifications</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="Settings.html">Settings</a>
+            <a href="Profile.html">Profile</a>
+     
+    </header>
+
+    <section class="search-bar">
+        <a href="HelperPage.html">Switch to a Helper</a>
+        <input type="text" placeholder="Search for a helper...">
+        <button class="search-button">Search</button>
+        <button class="filter-button">Filter</button>
+    </section>
+
+    <!-- Since there is no javascript , when the user clicks the add request button, the title and description will be displayed in the add-request section -->
+    <section class="add-request">
+        <button class="add-request-button">Add Request</button>
+        <input type="text" placeholder="Request Title">
+        <textarea placeholder="Request Description"></textarea>
+        <!--And the date of request will be displayed automatically based on user's device time  -->
+    </section>
+
+    <section class="helper-list">
+        <h2>Available Helpers</h2>
+        <div class="helper-card">
+            <img src="helper1.jpg" alt="Helper 1">
+            <h3>Omar Abboud</h3>
+            <p><span>Age:</span>24 </p>
+            <p><span>Description:</span>
+             Web developer experienced in HTML, CSS, JavaScript, and responsive websites</p>
+            <p><span>Email:</span>omar.abboud@example.com</p>
+            <button class="invite-button">Invite</button>
+        </div>
+        <div class="helper-card">
+            <img src="helper2.jpg" alt="Helper 2">
+            <h3>Mira Khalil</h3>
+            <p><span>Age:</span>22</p>
+            <p><span>Description:</span>
+             Graphic designer specializing in logos, social media posts, and visual branding</p>
+            <button class="invite-button">Invite</button>
+        </div>
+        <div class="helper-card">
+            <img src="helper3.jpg" alt="Helper 3">
+            <h3>Jinan Mostafa</h3>
+            <p><span>Age:28</span></p>
+            <p><span>Description:</span>
+             Translator and language specialist experienced in Arabic-English translation and editing</p>
+            <p><span>Email:</span>jinan.mostafa@example.com</p>
+            <button class="invite-button">Invite</button>
+        </div>
+        <div class="helper-card">
+            <img src="helper4.jpg" alt="Helper 4">
+            <h3>Zouheir Dandashy</h3>
+            <p><span>Age:40</span></p>
+            <p><span>Description:</span>
+             Professional Electrical Engineer specializing in circuit design, electrical systems, and troubleshooting
+            <p><span>Email:</span>zouheir.dandashy@example.com</p>
+            <p><span>Phone Number:</span>009613701001</p>
+            <button class="invite-button">Invite</button>
+        </div>
+        <div class="helper-card">
+            <img src="helper5.jpg" alt="Helper 5">
+            <h3>Hamsa Hamdan</h3>
+            <p><span>Age:30</span></p>
+            <p><span>Description:</span>
+             Experienced programmer who helps with Python, Java, and software development tasks</p>
+            <button class="invite-button">Invite</button>
+        </div>
+        
+    </section>
+
+    <a href="" class="view-more">View More</a>
+
+    <footer>
+        <p>&copy; 2026 HelperLink. All rights reserved.</p>
+    </footer>
+</body>
+</html>
